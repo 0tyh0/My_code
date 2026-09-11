@@ -1,0 +1,33 @@
+# ============================================
+# 只跟踪 applications/，其余全部忽略
+# ============================================
+
+# OpenHarmony 源码树（本地环境，不上传）
+/base/
+/domains/
+/drivers/
+/foundation/
+/kernel/
+/prebuilts/
+/test/
+/third_party/
+/utils/
+/vendor/
+/out/
+/build.py
+/bundle.json
+/LICENSE
+/build/
+# 常见的构建产物
+*.o
+*.a
+*.so
+*.bin
+*.elf
+*.map
+
+# 编辑器/系统杂项
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
