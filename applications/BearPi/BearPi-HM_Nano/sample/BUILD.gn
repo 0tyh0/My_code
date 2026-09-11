@@ -53,8 +53,8 @@ lite_component("app") {
         #"Z1_hi3861_uart_ylc:uart_hi3861",
         "Z2_hi3861_flash_ylc:flash_example",
 
-        #"my_first_app:myapp",
-        "my_second_app:myapp",
+        "my_first_app:myapp",
+        #"my_second_app:myapp",
     ]
 }
 
